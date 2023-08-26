@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&family=Roboto:ital,wght@0,300;1,100&family=Satisfy&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+   background-color: rgba(70, 48, 83, 0.856);
+}
+.text-center{
+    color: rgb(231, 231, 231);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: rgb(36, 25, 46);
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display: flex;
+} 
+.flex-col{
+    flex-direction: column;
+}
+.button{
+    font-weight: bolder;
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px ;
+    border:2px solid black;
+    border-radius:9px ;
+    cursor: pointer;
+}
+#button1{
+    background-color: rgb(187, 71, 17);
+}
+#button2{
+    background-color: rgb(53, 53, 53);
+}
+
+.items-center{
+    align-items: center;
+}
+.row{
+    margin: 10px 0;
+}
+.row input{
+    height: 35px;
+    width: 221px;
+    font-size: 13px;
+    margin: 0;
+    padding: 10px 38px;
+    border:2px solid black;
+    border-radius: 15px;
+}
